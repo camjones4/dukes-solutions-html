@@ -1,0 +1,64 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
+
+/* LOGIN FORM */
+.my-form {
+    padding: 2em;
+    color: #fff;
+    max-width: 45vh;
+    margin-inline: auto;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.form-control {
+    background-color: inherit;
+    color: #fff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px soild #fff;
+    border-radius: 0;
+    padding-left: 0;
+}
+.form-control:focus{
+    background-color: inherit;
+    color: #fff;
+    box-shadow: none;
+    border-color: #fff;
+}
+
+.btn {
+    border-radius: 0;
+    width: 100%;
+    font-weight: bold;
+}
+
+p {
+    color: grey;
+    text-align: center;
+}
+p a {
+    color: rgb(234, 234, 234);
+    text-decoration: none;
+}
+p a:hover {
+    color: #fff;
+}
+
+/* CARDS */
+h2 {
+    text-align: center;
+}
+.card-header {
+    background-color: black;
+}
+.card-title {
+    text-align: left;
+}
+.card-text {
+    text-align: left;
+}
